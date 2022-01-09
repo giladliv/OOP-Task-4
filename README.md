@@ -6,6 +6,11 @@ In this project we managed to build a Pokemon Go Program that trys to capture as
 This is the Frontend of the Project
 ![front](/Ex4/pics/pokefront.png)
 
+you can push the button on the lefter side to stop the program to continue runing
+
+### Cases result
+![cases](/Ex4/pics/Cases.png)
+
 ## how to use
 the main function is in <a href=/Ex4/src/ex4_java_client/StudentCode.java>StudentCode.java</a> and run in the Folder threw cmd this command:
 you can enter to [Release](/Release) directory and there run the function for Pokemon Go:
