@@ -4,11 +4,11 @@ In this project we managed to build a Pokemon Go Program that trys to capture as
 ##The Game
 
 This is the Frontend of the Project
-![front]("/Ex4/pics/pokefront.png")
+![front](/Ex4/pics/pokefront.png)
 
 ## how to use
-the main function is in <a href="/Ex4/src/ex4_java_client/StudentCode.java">StudentCode.java</a> and run in the Folder threw cmd this command:
-you can enter to [Release]("/Release") directory and there run the function for Pokemon Go:
+the main function is in <a href=/Ex4/src/ex4_java_client/StudentCode.java>StudentCode.java</a> and run in the Folder threw cmd this command:
+you can enter to [Release](/Release) directory and there run the function for Pokemon Go:
 before running our pokemon app you must start the server: 
 Note! please make sure your internet connection is on
 ```
