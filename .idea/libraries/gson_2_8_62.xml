@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gson-2.8.62">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Ex4/out/production/Ex4_adaptation/api/gson-2.8.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
