@@ -24,7 +24,7 @@ java /Ex4/src/ex4_java_client/StudentCode.java
 ##The Structure 
 this is the UML design for the Project:
 
-![uml4]("/Ex4/pics/uml4.png")
+![uml4](/Ex4/pics/uml4.png)
 
 there are some interesting classes in here:
 #### interfaces
