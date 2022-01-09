@@ -21,10 +21,12 @@ to activate our app(client):
 java /Ex4/src/ex4_java_client/StudentCode.java
 ```
 
-##The Structure 
+## The Structure 
 this is the UML design for the Project:
 
 ![uml4](/Ex4/pics/uml4.png)
+
+### Explenation about the Classes
 
 there are some interesting classes in here:
 #### interfaces
@@ -52,4 +54,3 @@ Every 100 miliseconds the program runs and make a move while the project is runn
 - Canvas - a component that deals with all the Graph Presentations
 
 
-### Explenation about the Classes
