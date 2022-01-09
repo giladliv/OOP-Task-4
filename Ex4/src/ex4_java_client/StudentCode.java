@@ -56,12 +56,10 @@ public class StudentCode
         agents = new Agents(agentsStr); // list of agens
         String pokemonsStr = client.getPokemons(); //list of pokemons
         String isRunningStr = client.isRunning(); // check if the game is still running - True \ false
-        frameAlgo = new FrameAlgo(algo, agents);
+        frameAlgo = new FrameAlgo(algo, agents, client);
 
         client.start(); //start game
         isRuning = true;
-
-
 
         /**
          * in this method we create thread for each agent in tha game,
@@ -82,7 +80,7 @@ public class StudentCode
         Date date = new Date();
         //This method returns the time in millis
         long timeMilli = date.getTime();
-        while (client.isRunning().equals("true"))
+        while (client.isRunning().equals("true") && isRuning)
         {
             /**
              *  synchronization method that only one thread can access the resource at a given point in time.
@@ -132,7 +130,7 @@ class RunMoves implements Runnable
             }
 
             try {
-                sleep(111);
+                sleep(101);     // make no more than 10 cals for one second
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
